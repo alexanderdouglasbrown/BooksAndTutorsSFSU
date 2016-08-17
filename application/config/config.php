@@ -50,7 +50,7 @@ define('URL', URL_PROTOCOL . URL_DOMAIN . URL_SUB_FOLDER);
  */
 define('DB_TYPE', 'mysql');
 define('DB_HOST', '127.0.0.1');
-define('DB_NAME', 'su16g04');
-define('DB_USER', 'su16g04');
-define('DB_PASS', 'sfsuteam4');
+define('DB_NAME', 'xxxx');
+define('DB_USER', 'xxxx');
+define('DB_PASS', 'xxxx');
 define('DB_CHARSET', 'utf8');
