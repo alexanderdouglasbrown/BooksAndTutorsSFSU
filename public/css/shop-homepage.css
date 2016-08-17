@@ -1,0 +1,248 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    /*padding-top: 150px;  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.nav{
+}
+.navbar-nav {
+    margin: 4px -15px;
+}
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    line-height: 10px;
+}
+.navbar{
+    background:#232176;
+}
+.home-label{
+    font-size:12pt;
+}
+.carousel-indicators li {
+    border:2px solid #ccc;
+    margin-left:5px;
+    margin-right:5px;
+}
+.carousel-indicators .active {
+    background-color: #444;
+    margin-left:5px;
+    margin-right:5px;
+}
+.tutor-tag{
+    font-weight:bold;
+    color:teal;
+    font-size:13pt;
+}
+.tutor-back{
+    background:#dff0d8;
+}
+.tutor-image img{
+    border-radius: 5px;
+    height:64px;
+    width:64px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.tutor-image a{
+    font-weight:bold;
+}
+.tutor-image td{
+    padding-bottom:10px;
+}
+.title{
+    text-align:center;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.sub-image{
+    float:left;
+    width:100px;
+    margin-right:5px;
+}
+.sort-select{
+    width: 175px;
+    background:white;
+    margin-left:5px
+}
+.quantity-text{
+    width: 25px;
+}
+.sell-category{
+    background:white;
+}
+.quantity{
+    font-weight: bold;
+    color:#c00;
+}
+.header-logo{
+}
+.header-slogan{
+    color:#ccc;
+    margin-left: 15px;
+    font-size: 10pt;
+    font-weight:bold;
+}
+.header-buttons{
+    font-size: 13pt;
+    font-weight: bold;
+}
+.header-buttons button{
+    margin-top: 15px;
+    background-color: transparent;
+    border: none;
+    outline:none;
+}
+.header-dropdown{
+    background:#232176;
+    border: 2px solid #E2AF2D;
+}
+.header-dropdown > li > a{
+    font-size: 13pt;
+    font-weight: bold;
+}
+.header-dropdown > li > a:hover{
+    background:#43428A;
+}
+.header-buttons a, .header-buttons button{
+    color:#E2AF2D !important;
+}
+.header-buttons a:hover, .header-buttons button:hover{
+    color:#ECCD7F !important;
+    background:#232176 !important;
+}
+.header-search{
+    margin-top:25px;
+}
+.header-search input{
+    height:40px;
+}
+.header-search input[type="text"]{
+    padding-left:10px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+    outline: none;
+}
+.header-search select{
+    height:40px;
+    border-color:#CCC;
+    padding-left: 10px;
+}
+.header-search button{
+    height:40px;
+    background:white;
+    margin-top:-1px;
+    border:2px;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+}
+.header-search button:focus {
+    outline:none !important;
+}
+input[type="text"],input[type="password"]{
+    border-radius:5px;
+    margin-bottom: 5px;
+}
+select{
+    border-radius:5px;
+    width:120px;
+    height:25px;
+}
+.img-update{
+    margin-top:5px;
+    width:92px;
+    border-radius: 1px;
+}
+.hamburger{
+    float:right;
+}
+.glyphicon{
+    font-size:12pt;
+    padding-top:5px;
+    color: #333;
+}
+.item-listing{
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.search-image{
+    position:absolute;
+    text-align: center;
+    margin-top:10px;
+    width:160px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.search-image img{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.search-data{
+    margin-left: 175px;
+}
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 200px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+.caption img{
+    width:auto;
+    height:auto;
+    max-width:150px;
+    max-height:150px;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+    margin-bottom: 0px;
+    border: 2px solid #ddd;
+    border-right-style:hidden;
+    border-left-style:hidden;
+    border-top-style:hidden;
+    border-radius: 0px;
+}
+.thumbnail h5{
+    /*padding-top:10px;*/
+    font-size: 12pt;
+    color:#333;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
