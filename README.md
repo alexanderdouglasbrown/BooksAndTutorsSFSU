@@ -1,3 +1,1 @@
-milestone 3 development copy for GROUP 4 <br/>
-uses MINI framework <br/>
-Vertical Prototype of project <br/>
+CSC 648 project at SFSU. Worked on the view portion of the MVC (HTML, CSS)
