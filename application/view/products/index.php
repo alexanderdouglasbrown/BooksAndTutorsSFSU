@@ -33,8 +33,10 @@
                         <select name='category_id' class="sell-category" required>
                             <?php
                             foreach ($categories as $category) {
-                                if (isset($category->name)) {
-                                    echo "<option value =" . htmlspecialchars($category->id, ENT_QUOTES, 'UTF-8') . ">" . htmlspecialchars($category->name, ENT_QUOTES, 'UTF-8') . "</option>";
+                                if ($category->id != 0) {
+                                    if (isset($category->name)) {
+                                        echo "<option value =" . htmlspecialchars($category->id, ENT_QUOTES, 'UTF-8') . ">" . htmlspecialchars($category->name, ENT_QUOTES, 'UTF-8') . "</option>";
+                                    }
                                 }
                             }
                             ?>
